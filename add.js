@@ -19,13 +19,13 @@ async function getTweetsAndInsertHTML() {
         
         return `<div id=${tweet._id} class="tweets">
             <div class="tweet-profile-image">
-                <img src="./images/profile.jpg" alt="profile image"/>
+                <img src="https://i.pinimg.com/236x/6c/e1/6f/6ce16f3ca0e5d287e15c1d689b029991.jpg" alt="profile image"/>
             </div>
             <div class="tweet">
             <div class="tweet-header">
                 <div class="tweet-user-info">
-                    <p><strong>Aishwarya Verma</strong></p>
-                    <p>@AishwaryaVerma </p>
+                    <p><strong>Ashutosh Verma</strong></p>
+                    <p>@Mechanical Engineer </p>
                     <p>${date.toDateString()}</p>
                 </div>
                 <div class="tweet-three-dots-menu">
